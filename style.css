@@ -1,0 +1,51 @@
+/* =========================
+  GLOBAL
+========================= */
+* {
+ box-sizing: border-box;
+}
+
+
+body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+ background-color: #f9f9f9;
+ color: #333;
+}
+
+
+a {
+ color: #0066cc;
+ text-decoration: none;
+}
+
+
+a:hover {
+ text-decoration: underline;
+}
+
+
+/* =========================
+  NAVBAR
+========================= */
+.navbar {
+ background-color: white;
+ padding: 1em 2em;
+ border-bottom: 1px solid #ddd;
+}
+
+
+.nav-container {
+ max-width: 1200px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+.nav-brand a {
+ font-size: 1.3em;
+ font-weight: bold;
+ color: #333;
+}
